@@ -1,0 +1,24 @@
+include_path:
+##INC_OVER
+
+NAME:formatter
+VARIABLE:
+	int:i1
+	int:i2
+	int:i3
+	int:i4
+	float:f1
+	float:f2
+	string:s1
+	string:s2
+	
+	
+FORMAT:
+	[i1,i2,i3,i4]
+	[f1,f2]
+    [i1,f1]
+    [i2,f2]
+    [s1]
+    [s2]
+##END
+

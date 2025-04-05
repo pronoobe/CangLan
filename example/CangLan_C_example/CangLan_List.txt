@@ -1,0 +1,36 @@
+include_path:
+	variable.h
+##INC_OVER
+
+NAME:ChangJiang
+VARIABLE:
+	int:c_i1
+	int:c_i2
+	float:c_f1
+	float:c_f2
+	string:c_str1
+	string:c_str2
+FORMAT:
+	[c_i1, c_i2]
+	[c_f1, c_f2]
+	[c_str1, c_str2]
+	[c_i1, c_f1, c_str1]
+	[c_i2, c_f2, c_str2]
+##END
+
+
+NAME:HuangHe
+VARIABLE:
+	int:h_i1
+	int:h_i2
+	float:h_f1
+	float:h_f2
+	string:h_str1
+	string:h_str2
+FORMAT:
+	[h_i1, h_i2]
+	[h_f1, h_f2]
+	[h_str1, h_str2]
+	[h_i1, h_f1, h_str1]
+	[h_i2, h_f2, h_str2]
+##END
